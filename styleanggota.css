@@ -1,0 +1,105 @@
+
+body {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgb(90, 90, 90);
+}
+
+.bungkus a {
+  color: black;
+  font-size: 1rem;
+}
+
+.container-l{
+  background-image: url(imgbg/background.jpg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20rem;
+  padding-bottom: 30rem;
+}
+
+.container-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -15%;
+}
+
+
+.logo {
+  width: 30%;
+  height: 30%;
+}
+
+
+ 
+ .wrapper {
+   display: flex;
+   width: 440px;
+   height: 50px;
+   background: purple;
+   margin: 30px;
+   border-radius: 30px;
+ }
+  
+ 
+ 
+  h1 {
+   margin: 20px;
+   color: white;
+   font-size: 60px;
+ }
+ 
+ h2 {
+   margin: 10px;
+   color: white;
+   
+ }
+
+
+
+.bungkus  {
+  display: flex;
+ margin: 20px;
+ 
+ 
+}
+
+.footer {
+  background-color: #f3f4f5;
+}
+
+.button-grup {
+  padding: 3rem;
+}
+
+@media screen and (max-width: 720px){
+  .logo {
+      width: 30%;
+      height: 30%;
+  }
+
+  .container-l{
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-top: 10rem;
+      padding-bottom: 15rem;
+  }
+
+  .container-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: -16%;
+  }
+
+  h1 {
+    margin: 20px;
+    color: white;
+    font-size: 30px;
+  }
+
+}
